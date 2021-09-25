@@ -1,0 +1,65 @@
+Running fold =  1
+Setting model...
+Training model...
+epoch     train_loss  valid_loss  accuracy  precision_score  f1_score  recall_score  roc_auc_score  time
+0         0.002952    1.954987    0.999840  0.997230         0.997921  0.998613      0.999253       00:22
+1         0.000862    0.923756    0.999519  0.988340         0.993793  0.999307      0.999750       00:21
+2         0.000002    1.248815    0.999840  0.995856         0.997924  1.000000      0.999930       00:21
+3         0.000080    0.533059    0.999012  0.974983         0.987333  1.000000      0.999833       00:21
+Saving model to  /home/nnhoa/DLWSD/models/webshell.f1
+Confusion Matrix:
+35979 37
+0 1442
+loss 0.5330585837364197; accuracy: 99.90%; precision: 97.50%; F1: 98.73%; Recall: 100.00%; roc-auc: 99.98%; fpr: 0.10%; elapsed: 3739.45 ms
+Running fold =  2
+Setting model...
+Training model...
+epoch     train_loss  valid_loss  accuracy  precision_score  f1_score  recall_score  roc_auc_score  time
+0         0.003606    5.833564    0.998825  0.970390         0.984973  1.000000      0.999653       00:21
+1         0.000040    4.038728    0.999573  0.989026         0.994483  1.000000      0.999820       00:21
+2         0.000374    3.001435    0.999333  0.982958         0.991406  1.000000      0.999792       00:21
+3         0.000019    9.415334    0.999573  0.989026         0.994483  1.000000      0.999806       00:21
+Saving model to  /home/nnhoa/DLWSD/models/webshell.f2
+Confusion Matrix:
+36000 16
+0 1442
+loss 9.41533374786377; accuracy: 99.96%; precision: 98.90%; F1: 99.45%; Recall: 100.00%; roc-auc: 99.98%; fpr: 0.04%; elapsed: 3589.28 ms
+Running fold =  3
+Setting model...
+Training model...
+epoch     train_loss  valid_loss  accuracy  precision_score  f1_score  recall_score  roc_auc_score  time
+0         0.005043    0.175245    0.999867  0.996545         0.998269  1.000000      0.999944       00:21
+1         0.000579    0.678974    0.999947  0.998615         0.999307  1.000000      0.999972       00:21
+2         0.000438    0.007915    0.999920  0.997924         0.998961  1.000000      0.999972       00:21
+3         0.000001    2.787074    0.999893  0.997234         0.998615  1.000000      0.999958       00:21
+Saving model to  /home/nnhoa/DLWSD/models/webshell.f3
+Confusion Matrix:
+36012 4
+0 1442
+loss 2.7870736122131348; accuracy: 99.99%; precision: 99.72%; F1: 99.86%; Recall: 100.00%; roc-auc: 100.00%; fpr: 0.01%; elapsed: 3589.52 ms
+Running fold =  4
+Setting model...
+Training model...
+epoch     train_loss  valid_loss  accuracy  precision_score  f1_score  recall_score  roc_auc_score  time
+0         0.003728    0.051348    0.999786  0.995851         0.997230  0.998613      0.999916       00:21
+1         0.000493    3.228479    0.999680  0.991747         0.995856  1.000000      0.999889       00:21
+2         0.000468    1.260330    0.999600  0.989705         0.994826  1.000000      0.999903       00:21
+3         0.000001    3.293431    0.999760  0.993797         0.996889  1.000000      0.999889       00:21
+Saving model to  /home/nnhoa/DLWSD/models/webshell.f4
+Confusion Matrix:
+36007 9
+0 1442
+loss 3.293431043624878; accuracy: 99.98%; precision: 99.38%; F1: 99.69%; Recall: 100.00%; roc-auc: 99.99%; fpr: 0.02%; elapsed: 3645.23 ms
+Running fold =  5
+Setting model...
+Training model...
+epoch     train_loss  valid_loss  accuracy  precision_score  f1_score  recall_score  roc_auc_score  time
+0         0.000435    0.710019    0.999947  0.998615         0.999307  1.000000      0.999972       00:21
+1         0.005943    0.826904    0.999786  0.994483         0.997234  1.000000      0.999903       00:21
+2         0.000240    0.297292    0.999893  0.997922         0.998614  0.999307      0.999282       00:21
+3         0.000001    2.272655    0.999920  0.997924         0.998961  1.000000      0.999958       00:21
+Saving model to  /home/nnhoa/DLWSD/models/webshell.f5
+Confusion Matrix:
+36012 3
+0 1442
+loss 2.2726547718048096; accuracy: 99.99%; precision: 99.79%; F1: 99.90%; Recall: 100.00%; roc-auc: 100.00%; fpr: 0.01%; elapsed: 3618.40 ms

@@ -1,0 +1,47 @@
+Loading dataset from botattack.csv...
+Total 1044525  , Benign:  758334  , WS:  286191
+Running fold =  1
+Setting model...
+Training model...
+epoch     train_loss  valid_loss  accuracy  precision_score  f1_score  recall_score  roc_auc_score  time
+0         0.000030    0.001629    0.999813  0.999930         0.999659  0.999389      0.999936       03:13
+Confusion Matrix:
+151663 4
+35 57203
+loss 0.0016289217164739966; accuracy: 99.98%; precision: 99.99%; F1: 99.97%; Recall: 99.94%; roc-auc: 99.99%; fpr: 0.00%; elapsed: 20.02 s
+Running fold =  2
+Setting model...
+Training model...
+epoch     train_loss  valid_loss  accuracy  precision_score  f1_score  recall_score  roc_auc_score  time
+0         0.000209    0.000576    0.999799  0.999930         0.999633  0.999336      0.999996       03:13
+Confusion Matrix:
+151663 4
+38 57200
+loss 0.0005763207445852458; accuracy: 99.98%; precision: 99.99%; F1: 99.96%; Recall: 99.93%; roc-auc: 100.00%; fpr: 0.00%; elapsed: 19.89 s
+Running fold =  3
+Setting model...
+Training model...
+epoch     train_loss  valid_loss  accuracy  precision_score  f1_score  recall_score  roc_auc_score  time
+0         0.000341    0.000578    0.999923  1.000000         0.999860  0.999720      1.000000       03:15
+Confusion Matrix:
+151667 0
+16 57222
+loss 0.0005777536425739527; accuracy: 99.99%; precision: 100.00%; F1: 99.99%; Recall: 99.97%; roc-auc: 100.00%; fpr: 0.00%; elapsed: 20.52 s
+Running fold =  4
+Setting model...
+Training model...
+epoch     train_loss  valid_loss  accuracy  precision_score  f1_score  recall_score  roc_auc_score  time
+0         0.000197    0.000898    0.999871  0.999860         0.999764  0.999668      0.999991       03:13
+Confusion Matrix:
+151659 8
+19 57219
+loss 0.0008980038692243397; accuracy: 99.99%; precision: 99.99%; F1: 99.98%; Recall: 99.97%; roc-auc: 100.00%; fpr: 0.01%; elapsed: 20.43 s
+Running fold =  5
+Setting model...
+Training model...
+epoch     train_loss  valid_loss  accuracy  precision_score  f1_score  recall_score  roc_auc_score  time
+0         0.000173    0.001832    0.999876  0.999668         0.999773  0.999878      0.999987       03:13
+Confusion Matrix:
+151647 19
+7 57232
+loss 0.001832145731896162; accuracy: 99.99%; precision: 99.97%; F1: 99.98%; Recall: 99.99%; roc-auc: 100.00%; fpr: 0.01%; elapsed: 20.48 s

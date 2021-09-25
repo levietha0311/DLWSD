@@ -1,0 +1,47 @@
+Loading dataset from webshell.csv...
+Total 187289  , Benign:  180079  , WS:  7210
+Running fold =  1
+Setting model...
+Training model...
+epoch     train_loss  valid_loss  accuracy  precision_score  f1_score  recall_score  roc_auc_score  time
+0         0.000176    0.817586    0.999813  0.995853         0.997577  0.999307      0.999276       00:21
+Confusion Matrix:
+36010 6
+1 1441
+loss 0.8175857663154602; accuracy: 99.98%; precision: 99.59%; F1: 99.76%; Recall: 99.93%; roc-auc: 99.93%; fpr: 0.02%; elapsed: 3.44 s
+Running fold =  2
+Setting model...
+Training model...
+epoch     train_loss  valid_loss  accuracy  precision_score  f1_score  recall_score  roc_auc_score  time
+0         0.000098    2.541953    0.999840  0.997230         0.997921  0.998613      0.998558       00:21
+Confusion Matrix:
+36012 4
+2 1440
+loss 2.5419533252716064; accuracy: 99.98%; precision: 99.72%; F1: 99.79%; Recall: 99.86%; roc-auc: 99.86%; fpr: 0.01%; elapsed: 3.44 s
+Running fold =  3
+Setting model...
+Training model...
+epoch     train_loss  valid_loss  accuracy  precision_score  f1_score  recall_score  roc_auc_score  time
+0         0.000239    0.038816    0.999867  0.996545         0.998269  1.000000      0.999972       00:21
+Confusion Matrix:
+36011 5
+0 1442
+loss 0.03881579637527466; accuracy: 99.99%; precision: 99.65%; F1: 99.83%; Recall: 100.00%; roc-auc: 100.00%; fpr: 0.01%; elapsed: 3.45 s
+Running fold =  4
+Setting model...
+Training model...
+epoch     train_loss  valid_loss  accuracy  precision_score  f1_score  recall_score  roc_auc_score  time
+0         0.004932    2.408912    0.999786  0.995851         0.997230  0.998613      0.998550       00:21
+Confusion Matrix:
+36010 6
+2 1440
+loss 2.40891170501709; accuracy: 99.98%; precision: 99.59%; F1: 99.72%; Recall: 99.86%; roc-auc: 99.86%; fpr: 0.02%; elapsed: 3.45 s
+Running fold =  5
+Setting model...
+Training model...
+epoch     train_loss  valid_loss  accuracy  precision_score  f1_score  recall_score  roc_auc_score  time
+0         0.009326    1.477904    0.999947  0.998615         0.999307  1.000000      0.999972       00:21
+Confusion Matrix:
+36013 2
+0 1442
+loss 1.4779044389724731; accuracy: 99.99%; precision: 99.86%; F1: 99.93%; Recall: 100.00%; roc-auc: 100.00%; fpr: 0.01%; elapsed: 3.70 s

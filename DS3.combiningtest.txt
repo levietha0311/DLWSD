@@ -1,0 +1,82 @@
+Loading model:  /home/nnhoa/DLWSD/models/DLWSD
+Finished loading the model.
+Predicting /home/nnhoa/DLWSD/data/testN.csv...
+Benign 281703 - Webshell 87842
+Preparing test_dl...
+Predicting...
+Elapsed time: 38.16 s
+Confusion Matrix: [[281620     83]
+ [  1362  86480]]
+Accuracy: 99.61%; precision: 99.90%; F1: 99.17%; Recall: 98.45%; roc-auc: 99.21%; fpr: 0.03%; elapsed: 38.16 s
+Finish prediction!
+Loading model:  /home/nnhoa/DLWSD/models/DLWSD+B
+Finished loading the model.
+Predicting /home/nnhoa/DLWSD/data/testN.csv...
+Benign 281703 - Webshell 87842
+Preparing test_dl...
+Predicting...
+Elapsed time: 38.43 s
+Confusion Matrix: [[281645     58]
+ [    48  87794]]
+Accuracy: 99.97%; precision: 99.93%; F1: 99.94%; Recall: 99.95%; roc-auc: 99.96%; fpr: 0.02%; elapsed: 38.43 s
+Finish prediction!
+
+Performing splitting webshell dataset...
+WS  180079 7210
+WS-train  126054 5048
+WS-test  54025 2162
+Performing splitting botattack dataset...
+Bot  758334 286191
+Bot-train  530656 200511
+Bot-test  227678 85680
+
+#Balancing
+Loading dataset from train.csv...
+Setting model...
+Benign 656706/205563 Webshell : Weight 0.6565106760102695 / 2.097335123538769
+Training model...
+epoch     train_loss  valid_loss  accuracy  precision_score  f1_score  recall_score  roc_auc_score  time
+0         0.002239    0.932343    0.999356  0.997556         0.998656  0.999757      0.999669       02:33
+Saving model to file /home/nnhoa/DLWSD/models/train...
+Confusion Matrix:
+131117 101
+10 41225
+Accuracy: 99.94%; precision: 99.76%; F1: 99.87%; Recall: 99.98%; roc-auc: 99.97%; fpr: 0.08%; elapsed: 16.60 s
+Trained successully!
+
+Loading model:  /home/nnhoa/DLWSD/models/train
+Finished loading the model.
+Predicting /home/nnhoa/DLWSD/data/test.csv...
+Benign 281707 - Webshell 87838
+Preparing test_dl...
+Predicting...
+Elapsed time: 37.00 s
+Confusion Matrix: [[281487    220]
+ [    33  87805]]
+Accuracy: 99.93%; precision: 99.75%; F1: 99.86%; Recall: 99.96%; roc-auc: 99.94%; fpr: 0.08%; elapsed: 37.00 s
+Finish prediction!
+
+#No Balancing
+Loading dataset from trainN.csv...
+Setting model...
+Benign 656710/205559 Webshell : Weight 0.6565066772243456 / 2.097375935862696
+Training model...
+epoch     train_loss  valid_loss  accuracy  precision_score  f1_score  recall_score  roc_auc_score  time
+0         0.000693    7.210454    0.999084  0.997000         0.998087  0.999176      0.999141       02:32
+Saving model to file /home/nnhoa/DLWSD/models/trainN...
+Confusion Matrix:
+131086 124
+34 41209
+Accuracy: 99.91%; precision: 99.70%; F1: 99.81%; Recall: 99.92%; roc-auc: 99.91%; fpr: 0.09%; elapsed: 16.74 s
+Trained successully!
+Loading model:  /home/nnhoa/DLWSD/models/trainN
+Finished loading the model.
+Predicting /home/nnhoa/DLWSD/data/testN.csv...
+Benign 281703 - Webshell 87842
+Preparing test_dl...
+Predicting...
+Elapsed time: 37.32 s
+Confusion Matrix: [[281422    281]
+ [    60  87782]]
+Accuracy: 99.91%; precision: 99.68%; F1: 99.81%; Recall: 99.93%; roc-auc: 99.92%; fpr: 0.10%; elapsed: 37.32 s
+Finish prediction!

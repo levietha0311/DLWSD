@@ -5,7 +5,17 @@ Perform hybrid approach that is combination of rule-based IDPS and Deep Neural N
 
 For the paper "A Proactive Method of the Webshell Detection and Prevention based on Deep Traffic Analysis"!
 
-Our dataset is built by deploying a 2-component testbed system Webserver-Network and Attack-Network. We use several craws website tools to create the normally HTTP traffic as legal clients.  we also simulate Webshell attacks by using Kali Linux to upload and execute webshell for creating intrusion traffic. Suricata is used as a packet capturing, HTTP filtering tool and saves network traffic into pcap files. 
+In order to validate and evaluate the effectiveness of the DLWSD method, we use two sub-datasets
+
+1. The first sub-dataset is built by deploying a 2-component testbed system Webserver-Network and Attack-Network. We use several craws website tools to create the normally HTTP traffic as legal clients.  we also simulate Webshell attacks by using Kali Linux to upload and execute webshell for creating intrusion traffic. Suricata is used as a packet capturing, HTTP filtering tool and saves network traffic into pcap files. 
+
+2. The second sub-dataset is a well-known and reliable CSE-CIC-IDS2018 dataset that is published by Canadian Institute for Cybersecurity.
+
+From these two sub-datasets, we constitute a dataset for testing. The dataset contains two parts: training and testing at the ratio of 7:3.
+
+For full access to all the source code and datasets we use, please download by following the link: 
+https://drive.google.com/drive/folders/1gBN-YXZsdfhh0Tp2OHykB3H8NtLXzzZ5?usp=sharing
+
 
 With the contributions of the authors:
 

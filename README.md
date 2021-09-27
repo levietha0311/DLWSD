@@ -16,7 +16,6 @@ From these two sub-datasets, we constitute a dataset for testing. The dataset co
 For full access to all the source code and datasets we use, please download by following the link: 
 https://drive.google.com/drive/folders/1gBN-YXZsdfhh0Tp2OHykB3H8NtLXzzZ5?usp=sharing
 
-
 With the contributions of the authors:
 
 Ha V. Le - levietha@chinhphu.vn - Department of Information Systems, VNU University of Engineering and Technology, Hanoi, Vietnam

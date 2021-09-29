@@ -13,7 +13,7 @@ In order to validate and evaluate the effectiveness of the DLWSD method, we use 
 
 From these two sub-datasets, we constitute a dataset for testing. The dataset contains two parts: training and testing at the ratio of 7:3.
 
-For full access to all the source code and datasets we use, please download by following the link: 
+For full access to the source code and datasets, please download by following the link: 
 https://drive.google.com/drive/folders/1gBN-YXZsdfhh0Tp2OHykB3H8NtLXzzZ5?usp=sharing
 
 With the contributions of the authors:
